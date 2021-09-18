@@ -11,6 +11,7 @@ void setup()
     pinMode(counter,INPUT);
   } 
   Serial.begin(9600);
+  //led que esta no pino 30 pisca
   digitalWrite(30, HIGH);
   delay(100); // Wait for 100 millisecond(s)
   digitalWrite(30, LOW);
