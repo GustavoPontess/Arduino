@@ -16,7 +16,7 @@ void setup()
   delay(100); // Wait for 100 millisecond(s)
   digitalWrite(30, LOW);
 }
-
+//definindo variaveis 
 int led = 22, i=0;
 int binario[8];
 int decimal=0;
