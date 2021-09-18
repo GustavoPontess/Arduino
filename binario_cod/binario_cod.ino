@@ -5,6 +5,7 @@ void setup()
   {
     pinMode(counter,OUTPUT);
   }
+  //setando os pinos de entrada
   for (int counter = 33; counter < 36; ++counter) 
   {
     pinMode(counter,INPUT);
