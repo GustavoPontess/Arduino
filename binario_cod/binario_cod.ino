@@ -1,6 +1,6 @@
 void setup() 
 {
-  // put your setup code here, to run once:
+  //setando os pinos de saida
   for (int counter = 22; counter < 33; ++counter) 
   {
     pinMode(counter,OUTPUT);
